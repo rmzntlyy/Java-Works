@@ -21,7 +21,7 @@ public class Main {
 
                     for (int j=0;j<list.length;j++){
 
-                        if((i != j) && list[i] == list[j]) {
+                        if((i != j) && list[i] == list[j] && list[j]%2==0) {
 
                             if (!find(repeat,list[i])){
                                 repeat[start++] = list[i];}
